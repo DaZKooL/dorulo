@@ -1,0 +1,12 @@
+div{
+  font-family: sans-serif;
+  border:solid 2px blue;
+}
+label{
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+li{
+	margin:30px 0;
+}

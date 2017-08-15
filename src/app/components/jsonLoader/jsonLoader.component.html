@@ -1,0 +1,11 @@
+<div>
+  <button (click)="loadUser();">Load {{json}}</button>
+  <ul>
+    <li *ngFor="let profile of makeArray(profiles); let i = index;">
+      {{i+1}} {{ profile.name | uppercase }}
+      <br> {{ profile.hair_color | uppercase }}
+      <br>
+      <a target="_blank" href='{{ profile. homeworld }}'>{{ profile. homeworld }}</a>
+    </li>
+  </ul>
+</div>
